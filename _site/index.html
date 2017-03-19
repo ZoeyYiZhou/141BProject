@@ -16,9 +16,9 @@
       <header>
         <!-- <h1>UC Davis 141B Winter 2017 Group Project</h1> -->
         <h1> Crop Selection in San Joaquin Valley</h1>
-        <!-- <p></p>
+        <!-- <p>UC Davis Winter 141B Group Project</p>
  -->  
-         <p> </p>
+         <p>UC Davis Winter 141B Group Project </p>
 
         
 
@@ -34,16 +34,44 @@
       </header>
       <section>
 
-      <p><img src="Team_Members.png" style="float: center; padding: 2em" width="70%" /></p>
+      <p><img src="Team_Members.png" style="float: center; padding: 2em" width="90%" /></p>
 
 <p>Our topic is to analysis water uses of crops in San Joaquin Valley, California. Drought has stocked California for the past 6 years and it has been eased a little bit due to recent rain. However, the sever effect from drought are still influencing California. Last Month, NASAS published a report about lands in San Joaquin Valley are sinking into the grouped. Some areas sunk for more than a feet in a year. It is caused by the fact that too much ground water draw from the ground and most of those water goes into agriculture.<br />
 In the main time, about13% of US agriculture production came from San Joaquin Valley. It is a challenge to find the balance between reduces water uses in agriculture and keep the production of crops going. 
 We got help from UC Davis Water and energy efficiency center and try to investigate the appropriate crops to grow and the trends of changing in crops in the past 6 years. Potentially we want to help government’s and farmers` decision making and help them to decide the best crop to grow in terms of water usage.</p>
 
+<h2 id="data-cleaning-and-munging-before-analysis"><a href="#header-1"></a>Data Cleaning and Munging Before Analysis</h2>
+
+<p>We had our data from 5 resources, and we merged by common features across tables. For table that doesn’t have common features, we will creat feature which can be used to merge the other table. For example, in the Cropland Data Layer(CDL) excel, we created county name based on where subbasins are located, so that this table can be merged  with Water Usage for crops by county. The highlighted feature in the table below are the common feature.</p>
+
+<p><img src="Table.png" style="float: center; padding: 2em" width="90%" /></p>
+
 <ul>
-  <li><a href="html/Appropriateness_level.html">Link to another page</a>.</li>
+  <li>Link to our raw data <a href="https://www.dropbox.com/sh/1g8w2s03skdpae3/AAASlTIE0VgLpsNU3Q27N-9za?dl=0">Dropbox Folder</a>
+    <ul>
+      <li><a href="https://www.nass.usda.gov/Research_and_Science/Cropland/Release/">Basin Information</a>
+ The UC Davis Water and Energy Efficiency Center Processed this data into Excel Format. Contact us if you want to download the Excel file.</li>
+      <li><a href="http://www.water.ca.gov/landwateruse/anlwuest.cfm">Agriculture Water Usage By County</a></li>
+      <li><a href="https://www.arcgis.com/home/item.html?id=23e7bea1720142fe877295b3a44232af">Basin Location</a></li>
+      <li><a href="http://et.water.ca.gov/Rest/Index">Precipitation</a></li>
+      <li><a href="https://www.nass.usda.gov/Statistics_by_State/California/Publications/">Economic Value</a></li>
+    </ul>
+  </li>
+  <li>Link to ipython about preprocesing
+    <ul>
+      <li><a href="">Scraping Precipiration Using API From XXX</a></li>
+      <li><a href="zJupyterNB_Script/DataCleanning_Alice.ipynb">Clearning and Merging</a></li>
+    </ul>
+  </li>
+  <li><a href="https://www.dropbox.com/s/q566iqo0gj38d2o/SubB_Yr_Cnty_Crp_Wtr_Acr_Zip_Prcip_Ecn.xlsx?dl=0">Data Ready For Analysis</a></li>
+</ul>
+
+<h2 id="data-analysisvisulization"><a href="#header-1"></a>Data Analysis/Visulization</h2>
+
+<ul>
+  <li><a href="zhtml/Appropriateness_level.html">Link to another page</a>.</li>
   <li>
-    <p><a href="html/MostThreeExpensive.html">html plotly 1</a>.</p>
+    <p><a href="zhtml/MostThreeExpensive.html">html plotly 1</a>.</p>
   </li>
   <li>level 1 item
     <ul>
@@ -63,8 +91,6 @@ We got help from UC Davis Water and energy efficiency center and try to investig
 <p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
 <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
-
-<h1 id="header-1"><a href="#header-1"></a>Header 1</h1>
 
 <p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
 
