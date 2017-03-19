@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Crop Selection in San Joaquin
+title: Crop Selection in San Joaquin Valley 
 description: UC Davis Winter 141B Group Project
 ---
 
