@@ -22,10 +22,10 @@ We had our data from 5 resources, and we merged by common features across tables
      The UC Davis Water and Energy Efficiency Center Processed this data into Excel Format. Contact us if you want to download the Excel file.  
   - [Agriculture Water Usage By County](http://www.water.ca.gov/landwateruse/anlwuest.cfm)
   - [Basin Location](https://www.arcgis.com/home/item.html?id=23e7bea1720142fe877295b3a44232af)
-  - [Precipitation](http://et.water.ca.gov/Rest/Index)
-  - [Economic Value](https://www.nass.usda.gov/Statistics_by_State/California/Publications/)
+  - [Zipcode and precipetation](http://et.water.ca.gov/Rest/Index)
+  - [Crop Economic Value](https://www.nass.usda.gov/Statistics_by_State/California/Publications/)
 - Link to ipython about preprocesing 
-  - [Scraping Precipiration Using API From XXX]()
+  - [Scraping Precipiration Using API From XXX](zJupyterNB_Script/ScriptPrecipitationAPI_Kai.ipynb)
   - [Clearning and Merging](zJupyterNB_Script/DataCleanning_Alice.ipynb)
 
 - [Data Ready For Analysis](https://www.dropbox.com/s/q566iqo0gj38d2o/SubB_Yr_Cnty_Crp_Wtr_Acr_Zip_Prcip_Ecn.xlsx?dl=0)
@@ -33,12 +33,22 @@ We had our data from 5 resources, and we merged by common features across tables
 
 ## [](#header-1)Data Analysis/Visulization  
 
-- [Link to another page](zhtml/Appropriateness_level.html).
-- [html plotly 1](zhtml/MostThreeExpensive.html).
+- [Apttopriateness](zhtml/Appropriateness_level.html).
+- [The most Expensice crops](zhtml/MostThreeExpensive.html).
+- [Area Value Precipitation Trends](zhtml/Area_Value_Precipitation_Trends.html)
+  We standardized the value of area, economic value and precipitation and put them into a same bar plot graph.   In the graph of Area, Value, and precipitation trends, we can see that precipitation of San Joaquin valley dropped significantly since 2011 except year 2013.   The crops area trends is consistent with precipitation and the crops area rich it`s minimal at year 2015. This fact proves that agriculture production is severely effected by the lack of rains. 
+  
+  In the main time, the economic value of crops reaches it`s maximum at year 2011 and is dropping each year since 2011. Again it reaches the minimal economic value at year 2015.   Overall, we can see that agriculture production is severely effected by the lack of rains in both producing area aspect and economics aspect. 
+- [Area trends for crops](zhtml/Area_trends_for_crops.html)
+  In this graph, we separate the crops by three tiers according to it`s water usage. Top 10% of crops in terms of water usage are named after high water usage crop. Bottom 40% of crops in terms of water usage are called low water usage crops. The rest is called medium water usage crops.
+  We can see that the Area of High water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmer has been trying to grow more low water usage crops and less high water usage crops. 
+- [Alfalfa areas trends](zhtml/Alfalfa_areas_trends.html)
+  We plot the trends of area that grows Alfalfa, a High water consumption plants, widely grows in San Joaquin Valley and is used for grazing, hay, and silage. It has a low economics value but very high water consumptions. In the graph of Alfalfa trends, we can see that the area of Alfalfa has dropped significantly, but are still growing in many area. 
+  It will be a great idea that if California can import Alfalfa or find it`s substitute to save water.  
 
-
-
-
+- Link to ipython about Data Analysis
+  - [Plotly trend kai](zJupyterNB_Script/PlotyTrends_Kai.ipynb)
+  
 
 
 
