@@ -158,9 +158,9 @@ end
 
 <dl>
 <dt>Questions? Free free to contact us</dt>
-<dd> <a href="mailto:liyanlinalice@hotmail.com"> Alice, Li </a>  </dd>
-<dt> <a href="mailto:zoezhou@ucdavis.edu"> Yi, Zhou </a>   </dt>
-<dd> <a href="mailto:umama@ucdavis.edu"> Jun, Ma </a>   </dd>
-<dt> <a href="mailto:kaij5088@gmail.com"> Kai, Jin </a>  </dt>
+  <dd> <a href="mailto:liyanlinalice@hotmail.com"> Alice, Li </a>  </dd>
+  <dd> <a href="mailto:zoezhou@ucdavis.edu"> Yi, Zhou </a>   </dd>
+  <dd> <a href="mailto:umama@ucdavis.edu"> Jun, Ma </a>   </dd>
+  <dd> <a href="mailto:kaij5088@gmail.com"> Kai, Jin </a>  </dd>
 </dl>
 
