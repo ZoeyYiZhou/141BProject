@@ -20,13 +20,13 @@ We had our data from 5 resources, and we merged by common features across tables
   - [Basin Information](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/)
      The UC Davis Water and Energy Efficiency Center Processed this data into Excel Format.<a href="mailto:liyanlinalice@hotmail.com"> Contact us </a> if you want to download the file  
   - [Agriculture Water Usage By County](http://www.water.ca.gov/landwateruse/anlwuest.cfm)
-  - [Basin Location](https://www.arcgis.com/home/item.html?id=23e7bea1720142fe877295b3a44232af)
+  - [Basin Shapefile](https://www.arcgis.com/home/item.html?id=23e7bea1720142fe877295b3a44232af)
   - [Zipcode and Precipetation](http://et.water.ca.gov/Rest/Index)
   - [Crop Economic Value](https://www.nass.usda.gov/Statistics_by_State/California/Publications/)
+  - [Other Useful Information on Subbasin](https://gis.water.ca.gov/app/bbat/)
 - Link to our iPython Notebook in Preprocesing Data
   - [Web Scraping for Precipiration](zJupyterNB_Script/ScriptPrecipitationAPI_Kai.ipynb)
   - [Clearning and Merging](zJupyterNB_Script/DataCleanning_Alice.ipynb)
-
 - [Data Ready For Analysis](https://www.dropbox.com/s/q566iqo0gj38d2o/SubB_Yr_Cnty_Crp_Wtr_Acr_Zip_Prcip_Ecn.xlsx?dl=0)
 
 
