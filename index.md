@@ -18,12 +18,12 @@ We had our data from 5 resources, and we merged by common features across tables
 <img src="Table.png" style="float: center; padding: 2em" width="90%">
 
   - [Basin Information](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/)
-     The UC Davis Water and Energy Efficiency Center Processed this data into Excel Format. Contact [us](<a href="mailto:liyanlinalice@hotmail.com"> Email Alice </a>) if you want to download the Excel file.  
+     The UC Davis Water and Energy Efficiency Center Processed this data into Excel Format.<a href="mailto:liyanlinalice@hotmail.com"> Contact us </a> if you want to download the file  
   - [Agriculture Water Usage By County](http://www.water.ca.gov/landwateruse/anlwuest.cfm)
   - [Basin Location](https://www.arcgis.com/home/item.html?id=23e7bea1720142fe877295b3a44232af)
-  - [Zipcode and precipetation](http://et.water.ca.gov/Rest/Index)
+  - [Zipcode and Precipetation](http://et.water.ca.gov/Rest/Index)
   - [Crop Economic Value](https://www.nass.usda.gov/Statistics_by_State/California/Publications/)
-- Link to our iPython Notebook on what we did in preprocesing 
+- Link to our iPython Notebook in Preprocesing Data
   - [Web Scraping for Precipiration](zJupyterNB_Script/ScriptPrecipitationAPI_Kai.ipynb)
   - [Clearning and Merging](zJupyterNB_Script/DataCleanning_Alice.ipynb)
 
