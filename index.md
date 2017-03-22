@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Crop Selection in San Joaquin Valley 
-description: UC Davis Winter 2017 141B Group Project
+description: UC Davis Winter 2017 STA141B Group Project
 ---
 
 <img src="Team_Members.png" style="float: center; padding: 2em" width="90%">
