@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>San Joaquin Valley</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="leaflet.css">
+	<script src="jquery.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	
+
+
+	
+</head>
+<body>
+
+
+
+<div id="mapid" style="width: 800px; height: 600px;"></div>
+
+<script>
+// 36.7783° N, 119.4179°
+
+
+	var mymap = L.map('mapid').setView([36.7468, -119.7726], 7);
+
+	L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiMmRhbXRhbGwiLCJhIjoiY2owZWx1amQzMDFnaTJ3bnFvcjRiY2F3MyJ9.herKroWC5T1LvODc38NmTA', {
+		maxZoom: 20
+		// attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+		// 	'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+		// 	'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		// id: 'mapbox.streets'
+	}).addTo(mymap);
+
+
+
+var basin_geojson = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, FieldCrop",
+        "basin": "CHOWCHILLA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.34167139077,
+          37.090853272593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, TropicalPlant",
+        "basin": "COSUMNES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.07808656407,
+          38.330042654674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "Cotton, Safflower, FieldCrop",
+        "basin": "DELTA-MENDOTA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.92904710334,
+          37.041356933504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, Onion&Garlic",
+        "basin": "EASTERN SAN JOAQUIN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0361175962,
+          38.016318891158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, FieldCrop",
+        "basin": "KAWEAH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.08009540072,
+          36.307721867576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, TropicalPlant",
+        "basin": "KERN COUNTY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.31966492317,
+          35.317557574328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, Onion&Garlic",
+        "basin": "KETTLEMAN PLAIN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.011155145,
+          35.87241566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "Safflower, FieldCrop, TropicalPlant",
+        "basin": "KINGS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.50478310373,
+          36.685464835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, Onion&Garlic",
+        "basin": "MADERA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.91750525773,
+          37.030662112017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, TropicalPlant",
+        "basin": "MERCED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.42769967527,
+          37.328020579712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "Cotton, DryBean, Safflower",
+        "basin": "MODESTO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.77091762865,
+          37.715207859446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, TropicalPlant",
+        "basin": "PLEASANT VALLEY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.11095498617,
+          35.964013365617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "Safflower, FieldCrop, TropicalPlant",
+        "basin": "TRACY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.60380505952,
+          37.873859763348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "Cotton, FieldCrop, TropicalPlant",
+        "basin": "TULARE LAKE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.72256324708,
+          36.229245938343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "DryBean, Safflower, TropicalPlant",
+        "basin": "TULE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.00595935783,
+          35.987088098128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "Safflower, FieldCrop, TropicalPlant",
+        "basin": "TURLOCK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.74234510282,
+          37.52085950855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "Cotton, TropicalPlant, Almond&Pistachio",
+        "basin": "WESTSIDE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.40448618362,
+          36.440499575422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "suggested": "Cotton, DryBean, Safflower",
+        "basin": "WHITE WOLF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.876928629,
+          35.03224396
+        ]
+      }
+    }
+  ]
+}
+
+	function onEachFeature(feature, layer) {
+		var name = "<p>Basin Name: ".bold();
+		var crops = "<p>Top 3 Suggested Crops: ".bold();
+
+		if (feature.properties) {
+			name += feature.properties.basin + "</p>";
+			crops += feature.properties.suggested + "</p>";
+		}
+
+		layer.bindPopup(name + crops);
+		// layer.bindPopup(des);
+	}
+
+L.geoJSON(basin_geojson, {
+
+	onEachFeature: onEachFeature,
+
+	pointToLayer: function (feature, latlng) {
+			return L.circleMarker(latlng, {
+				radius: 8,
+				fillColor: "#ff7800",
+				color: "#000",
+				weight: 1,
+				opacity: 1,
+				fillOpacity: 0.8
+			});
+		}
+}).addTo(mymap);
+	// var popup = L.popup();
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

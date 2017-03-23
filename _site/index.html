@@ -36,13 +36,13 @@
 
       <p><img src="Team_Members.png" style="float: center; padding: 2em" width="90%" /></p>
 
-<p>Our topic is to analysis water uses of crops in San Joaquin Valley, California. Drought has stocked California for the past 6 years and it has been eased a little bit due to recent rain. However, the sever effect from drought are still influencing California. Last Month, NASAS published a report about lands in San Joaquin Valley are sinking into the grouped. Some areas sunk for more than a feet in a year. It is caused by the fact that too much ground water draw from the ground and most of those water goes into agriculture.<br />
-In the main time, about13% of US agriculture production came from San Joaquin Valley. It is a challenge to find the balance between reduces water uses in agriculture and keep the production of crops going. 
-We got help from UC Davis Water and energy efficiency center and try to investigate the appropriate crops to grow and the trends of changing in crops in the past 6 years. Potentially we want to help government’s and farmers` decision making and help them to decide the best crop to grow in terms of water usage.</p>
+<p>Our topic is to analysis water uses of crops in San Joaquin Valley, California. Droughts have stocked California for the past 6 years and it has been eased a little bit due to recent rain. However, the severe effect from drought is still influencing California. Last Month, NASA published a report about lands in San Joaquin Valley are sinking into the ground. Some areas sunk for more than a feet in a year. It is caused by the fact that too much ground water has been drawn from the ground and most of those water goes into agriculture.</p>
+
+<p>In the main time, about 13% of US agriculture production came from San Joaquin Valley. It is a challenge to find the balance between reducing water uses in agriculture and keeping the production of crops going. Here we investigate the appropriate crops to grow and the trends of changing in crops areas in the past 6 years. Ideally, we want to help farmers make decisions on what to grow, and help the government to get ideas of current water usage in agriculture in San Joaquin Valley.</p>
 
 <h2 id="data-cleaning-and-munging-before-analysis"><a href="#header-1"></a>Data Cleaning and Munging Before Analysis</h2>
 
-<p>We had our data from 5 resources, and we merged by common features across tables. For table that doesn’t have common features, we will creat feature which can be used to merge the other table. For example, in the Cropland Data Layer(CDL) excel, we created county name based on where subbasins are located, so that this table can be merged  with Water Usage for crops by county. The highlighted feature in the table below are the common feature. We also webscrape precipation store in API format from the Internet ,and manmually sumamrize  crop economic value from reading pdf’s from the website. Here is lists of our data sources.</p>
+<p>We had our data from 5 resources, and we merged by common features across tables. For tables that don’t have common features, we create features which can be used to merge the other tables. For example, in the Cropland Data Layer(CDL) excel, we created county name based on the locations of subbasins so that this table can be merged with Water Usage for crops by county. The highlighted feature in the table below are the common features. We also web-scrape precipitation store in API format from the Internet and manually summarized crops’ economic value from reading pdfs from the website. Here are lists of our data sources</p>
 
 <p><img src="Table.png" style="float: center; padding: 2em" width="90%" /></p>
 
@@ -66,7 +66,7 @@ We got help from UC Davis Water and energy efficiency center and try to investig
 <h2 id="data-analysisvisulization"><a href="#header-1"></a>Data Analysis/Visulization</h2>
 
 <ul>
-  <li><a href="zhtml/Appropriateness_level.html">Apttopriateness</a>.</li>
+  <li><a href="zhtml/Appropriateness_level.html">Appropriateness</a>.</li>
   <li><a href="zhtml/MostThreeExpensive.html">The most Expensice crops</a>.</li>
   <li>
     <p><a href="zhtml/Area_Value_Precipitation_Trends.html">Area Value Precipitation Trends</a>
@@ -78,9 +78,10 @@ In this graph, we separate the crops by three tiers according to it`s water usag
 We can see that the Area of High water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmer has been trying to grow more low water usage crops and less high water usage crops.</p>
   </li>
   <li>
-    <p><a href="zhtml/Alfalfa_areas_trends.html">Alfalfa areas trends</a>
-We plot the trends of area that grows Alfalfa, a high water consumption and widely grown plant in San Joaquin Valley. It is used for grazing, hay, and silage. It has a low economics value but very high water consumptions. In the graph of Alfalfa trends, we can see that the area of Alfalfa has dropped significantly, but are still growing in many area. It will be a great idea that if California can import Alfalfa or find it`s substitute to save water.</p>
+    <p><a href="zhtml/Corn_Alfalfa_Grain_Trends.html">Corn_Alfalfa_Grain_Trends</a>
+We plot the trends of area that grows Alfalfa Grain and corn. Those plants have High water consumption plants but low economic values,  but are widely grows in San Joaquin Valley. Note that Alfalfa is used for grazing, hay, and silage. It has a low economics value but very high water consumptions. In the graph of Alfalfa trends, we can see that the area of Alfalfa has dropped significantly, but are still growing in many counties. Similar trends happened for both Grain and corn. It will be a great idea that if California can import Alfalfa Grain and corn or find their substitutes to save water.</p>
   </li>
+  <li><a href="zPrj_map/SJV_basin.html">MaJun’s map</a></li>
   <li>Link to iPython Notebook on Data Analysis/Visulization
     <ul>
       <li><a href="zJupyterNB_Script/PlotyTrends_Kai.ipynb">Plotly trend kai</a></li>
