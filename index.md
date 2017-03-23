@@ -40,7 +40,7 @@ This is a bar plot showing the trend for crop area, precipitation and crop econo
 
 <img src="zPlot_Image/Area_Trends_For_Crops.png" style="float: center; padding:0.1em" width="90%">
 
-In this graph, we separate the crops by three tiers according to their water usage. We rank the crops by unit water usage in 2010. Top 10% of crops in terms of water usage is named high water usage crops. Bottom 40% of crops in terms of water usage is named low water usage crops. The rest is medium water usage crops. We can see that the area of high water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmers have been trying to grow more low water usage crops and less high water usage crops. Click [here](zhtml/Area_Trends_For_Crops.html) for the interactive plot. 
+In this graph, we separate the crops by three tiers according to their water usage. We rank the crops by unit water usage in 2010. Top 10% of crops in terms of water usage is named high water usage crops. Bottom 40% of crops in terms of water usage is named low water usage crops. The rest is medium water usage crops. We can see that the area of high water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmers have been trying to grow more low water usage crops and less high water usage crops. Click [here](zhtml/Area_trends_for_crops.html) for the interactive plot. 
   
  
 <img src="zPlot_Image/18.png" style="float: center; padding:0.1em" width="90%">
