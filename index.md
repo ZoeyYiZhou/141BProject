@@ -58,17 +58,15 @@ Corn Alfalfa grain trends:
 
 <img src="zPlot_Image/Corn_Alfalfa_Grain_Trends.png" style="float: center; padding:0.1em" width="90%">
 
-We plot the area in growing alfalfa, grain and corn to show trends. These 3 plants have high water consumption, but low economic values, and they are widely grown in San Joaquin Valley. Note that alfalfa is used for grazing, hay, and silage. In the bars for alfalfa, we can see that the area of alfalfa has dropped significantly, but the total area in growing alfalfa is still big. Similar trends happened for both grain and corn. It will be a better idea if California can import alfalfa, grain and corn, or find their substitutes to grow to save water. [Corn_Alfalfa_Grain_Trends](zhtml/Corn_Alfalfa_Grain_Trends.html)
+We plot the area in growing alfalfa, grain and corn to show trends. These 3 plants have high water consumption, but low economic values and they are widely grown in San Joaquin Valley. Note that alfalfa is used for grazing, hay, and silage. In the bars for alfalfa, we can see that the area of alfalfa has dropped significantly, but the total area in growing alfalfa is still big. Similar trends happened for both grain and corn. It will be a better idea if California can import alfalfa, grain, and corn, or find their substitutes to grow to save water.[Corn_Alfalfa_Grain_Trends](zhtml/Corn_Alfalfa_Grain_Trends.html)
 
 
 <img src="zPlot_Image/3mid.png" style="float: center; padding:0.1em" width="90%">
 
-In this plot above, we analysis 3 crops: potato, melon and cucumber, and deciduous plant. These crops doesn't need too much water to grow, and can be sold with medium price, so they are never in the suggested list. However, if we were to find a best place to grow these, by ranking thier appropriateness in each county, we recommend Chowchilla, Madera and Kaweah sub-basin to plant potato; Delta-Mendota, Modesto and Turlock to grow Melon and Cucumber, and Cosumnes, Eastern San Joaquim and Tracy to grow Deciduous Plant. More details on [interactive plot](zPlot_Image/Mid_Three_Crops.html)
+In this plot above, we analysis 3 crops: potato, melon and cucumber, and deciduous plant. These crops don't need too much water to grow and can be sold with medium price, so they are never in the suggested list. However, if we were to find the best place to grow these, by ranking their appropriateness in each county, we recommend Chowchilla, Madera and Kaweah sub-basin to plant potato; Delta-Mendota, Modesto and Turlock to grow Melon and Cucumber, and Cosumnes, Eastern San Joaquim and Tracy to grow Deciduous Plant. More details on [interactive plot](zPlot_Image/Mid_Three_Crops.html)
 
 
-
-Overall, we noticed some farmers in  San Joaquin Valley have switched their crops and adjust to the natural conditions in  San Joaquin Valley to save water usage, and there are certainly much room for improvement in terms of saving water. Moreover, our suggestion is merely based on production economic value and saving water usage. There are might be other factors for farmers to consider for them to switch, for example, diet habbit, and cosumer purchasing habbit in the area and etc, which we did not consider here. However, what we did here gives farmers a good overview on possible crops to grow if they want to save water.  
- 
+Overall, we noticed some farmers in  San Joaquin Valley have switched their crops and adjust to the drought conditions in  San Joaquin Valley to save water, and there is certainly much room for improvement in terms of saving water. Our suggestions are merely based on production economic value and water usage saving. There are might be other factors for farmers to consider if they decide to switch, for example, diet habit for people around the area, consumers' purchasing habits in the area and etc, which we did not consider here. However, what we did here gives farmers a good overview on possible crops to grow if they want to save water.  
 
 
 
