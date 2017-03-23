@@ -6,13 +6,13 @@ description: UC Davis Winter 2017 STA141B Group Project
 
 <img src="Team_Members.png" style="float: center; padding: 2em" width="90%">
 
-
 Our topic is to analysis water uses of crops in San Joaquin Valley, California. Droughts have stocked California for the past 6 years and it has been eased a little bit due to recent rain. However, the severe effect from drought is still influencing California. Last Month, NASA published a report about lands in San Joaquin Valley are sinking into the ground. Some areas sunk for more than a feet in a year. It is caused by the fact that too much ground water has been drawn from the ground and most of those water goes into agriculture.  
 
 In the main time, about 13% of US agriculture production came from San Joaquin Valley. It is a challenge to find the balance between reducing water uses in agriculture and keeping the production of crops going. Here we investigate the appropriate crops to grow and the trends of changing in crops areas in the past 6 years. Ideally, we want to help farmers make decisions on what to grow, and help the government to get ideas of current water usage in agriculture in San Joaquin Valley. 
 
 ## [](#header-1)Data Cleaning and Munging Before Analysis 
 <img src="Table.png" style="float: center; padding: 1em" width="90%">
+
 We had our data from 5 resources, and we merged by common features across tables. For tables that don't have common features, we create features which can be used to merge the other tables. For example, in the Cropland Data Layer(CDL) excel, we created county name based on the locations of subbasins so that this table can be merged with Water Usage for crops by county. The highlighted feature in the table below are the common features. We also web-scrape precipitation store in API format from the Internet and manually summarized crops' economic value from reading pdfs from the website. Here are lists of our data sources
 
   - [Basin Information](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/)
@@ -29,8 +29,9 @@ We had our data from 5 resources, and we merged by common features across tables
 
 <img src="zPlot_Image/appropriateness.png" style="float: center; padding:0.1em" width="60%">
 
-From our cleaning dataset, we have a column named WaterUsagePerAcre (feet). We also get the precipitation (inch) for each sub-basin online. Therefore, we set the level of appropriateness to be (WaterUsagePerAcre/12) / (Percipitation). Ideally, if the precipitation happens to be equal to the total water crops needed to grow, then the appropriateness level will be one, and farmers do not need to draw more water from the ground. However, usually the appropriateness will be bigger than one because the crops will need more water than precipitation. The level of appropriateness will be better if it is smaller. 
+We create a new variable 'appropriateness' by using Water Usage Per Acre divided by Percipitation from our dataset.Ideally, if the precipitation happens to be equal to the total water crops needed to grow, our definied 'appropriateness' will be one. In this case, farmers do not need to draw more water from the ground. However, usually the appropriateness will be bigger than one, as the crops in general need more water than precipitation. Here, a smaller appropriateness value indicates a higher appropriateness in growing the crop in given area. 
 
+## Ready? Here are our analysis results. For each graph below, we also have link to its interactive plot . 
 
 <img src="zPlot_Image/Area_Value_Precipitation_Trends.png" style="float: center; padding:0.1 em" width="90%">
 
@@ -43,7 +44,8 @@ In this graph, we separate the crops by three tiers according to thier water usa
   
  
 <img src="zPlot_Image/18.png" style="float: center; padding:0.1em" width="90%">
-I calculate appropriateness level for each crop in 18 sub-basins, and plot them in ascending order. Figure 18 bars shows an overall trend of level of appropriateness in different sub-basins. From the plot, we can see that Grain, Tropical Plant and potatoes are the most three saving water crops in San-Joaquin Valley.From the one single bar, by clicking on the legend, it will toggle the plot to filter by sub-basin. [Appropriateness](zhtml/2_bars.html).
+
+We calculate appropriateness level for all crops in all 18 subbasins, and plot their their appropriatenss in ascending order in one plot. Picture above only shows the appropriateness for crops in two subasin:Chowchilla and Madera.  Each bar represent a crop in selected subbasin. From the plot, we see that grain, tropical plant and potatoes are the top 3 water-saving crops in San-Joaquin Valley. Too see crops in other subbasin and want to compare crop appropriateness and crop across basin, click the subbasin on the legend on [the interactive plot](zhtml/2_bars.html), it will toggle the plot to filter by sub-basin. 
 
 
 <img src="zPlot_Image/Map.png" style="float: center; padding:0.1em" width="90%">
@@ -63,7 +65,6 @@ We plot the area in growing alfalfa, grain and corn to show trends. These 3 plan
 
 These are the crops with medium price and need decent water.
 Other Three Crops: We plot the trend of Potato, Melon&Cucumber, and Deciduous Plant. These crops need decent water to grow, and can be sold with medium price. For potatoes, we recommend Chowchilla, Madera and Kaweah sub-basin to plant. For Melon&Cucumber, we suggested Delta-Mendota, Modesto and Turlock to grow. For Deciduous Plant, we recommend Cosumnes, Eastern San Joaquim and Tracy to grow. [mid crops](zPlot_Image/Mid_Three_Crops.html)
-
 
 
 
