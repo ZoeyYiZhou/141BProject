@@ -68,15 +68,11 @@ These are the crops with medium price and need decent water.
 Other Three Crops: We plot the trend of Potato, Melon&Cucumber, and Deciduous Plant. These crops need decent water to grow, and can be sold with medium price. For potatoes, we recommend Chowchilla, Madera and Kaweah sub-basin to plant. For Melon&Cucumber, we suggested Delta-Mendota, Modesto and Turlock to grow. For Deciduous Plant, we recommend Cosumnes, Eastern San Joaquim and Tracy to grow. [mid crops](zPlot_Image/Mid_Three_Crops.html)
 
 
-Link to iPython Notebook on Data Analysis/Visulization  
-- [Plot1-5](zJupyterNB_Script/PlotyTrends_Kai.html)
-- [Plot6-7](zJupyterNB_Script/PlotyTrends_Kai.html)
-  
-
 <dl>
-<dt>Contact</dt>
-<dd><a href="https://www.linkedin.com/in/liyanlinalice/"> Alice on LinkedIn </a></dd>
-<dd><a href="mailto:liyanlinalice@hotmail.com"> Email Alice </a></dd>
+<dt>Link to iPython Notebook on Data Analysis/Visulization </dt>
+<dd>[Plot1-5](zJupyterNB_Script/PlotyTrends_Kai.html) </dd>
+<dd>[Plot6-7](zJupyterNB_Script/PlotyTrends_Kai.html) </dd>
+<dd>[map](https://github.com/ZoeyYiZhou/141BProject/blob/master/zPrj_map/SJV_basin.html)</dd>
 </dl>
 
 
