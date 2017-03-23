@@ -37,21 +37,23 @@ We had our data from 5 resources, and we merged by common features across tables
 This is a bar plot showing the trend for crop area, precipitation and crop economic value from 2010 to 2015. We standardized the value of area, economic value and precipitation and put them into a same bar plot graph. We can see that precipitation of San Joaquin valley dropped significantly since 2011 except year 2013. The crops area trends is consistent with precipitation and the crops area reaches its minimal in 2015. This fact proves that agriculture production is severely affected by the lack of rains. In the main time, the economic value of crops reaches its maximum in 2011 and starts to drop each year afterwards, and reaches the minimal value in 2015. Overall, we can see that agriculture production is severely affected by the lack of rains, and experiences an decrease in production from economics aspect. Here is the interactive [plot](zhtml/Area_Value_Precipitation_Trends.html)
 
 <img src="zPlot_Image/Area_Trends_For_Crops.png" style="float: center; padding: 1em" width="90%">
-In this graph, we separate the crops by three tiers according to it`s water usage. Top 10% of crops in terms of water usage are named after high water usage crop. Bottom 40% of crops in terms of water usage are called low water usage crops. The rest is called medium water usage crops.
-  We can see that the Area of High water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmer has been trying to grow more low water usage crops and less high water usage crops. Here is the interactive [plot](zhtml/Area_Trends_For_Crops.html)
+In this graph, we separate the crops by three tiers according to it`s water usage. Top 10% of crops in terms of water usage are named after high water usage crop. Bottom 40% of crops in terms of water usage are called low water usage crops. The rest is called medium water usage crops. We can see that the Area of High water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmer has been trying to grow more low water usage crops and less high water usage crops. Here is the interactive [plot](zhtml/Area_Trends_For_Crops.html)
   
  
 <img src="zPlot_Image/Area_Trends_For_Crops.png" style="float: center; padding: 1em" width="90%">
 We plot the trends of area that grows Alfalfa Grain and corn. Those plants have High water consumption plants but low economic values,  but are widely grows in San Joaquin Valley. Note that Alfalfa is used for grazing, hay, and silage. It has a low economics value but very high water consumptions. In the graph of Alfalfa trends, we can see that the area of Alfalfa has dropped significantly, but are still growing in many counties. Similar trends happened for both Grain and corn. It will be a great idea that if California can import Alfalfa Grain and corn or find their substitutes to save water. [Corn_Alfalfa_Grain_Trends](zhtml/Corn_Alfalfa_Grain_Trends.html)
 
 
-- [MaJun's map](zPrj_map/SJV_basin.html)
-- Link to iPython Notebook on Data Analysis/Visulization  
-  - [Plotly trend kai](zJupyterNB_Script/PlotyTrends_Kai.html)
+<img src="zPlot_Image/Map.png" style="float: center; padding: 1em" width="90%">
+According to the water appropriateness levels, in each Subbasin, we pick the top 50% crops (7 crops) in terms of best water appropriateness. Amount these top water saving crops, we then rank them by production economics value. We show the top 3 economic crops for each subbasin and project them on the map. Simply click on a data point(subbasin location) on this [interactive map](zPrj_map/SJV_basin.html), you will sse the basin name and the top 3 suggested crop to grow accordingly in the San Joaquin Valley. 
+
+ According to our criteria, those 3 crops are our suggested crops for farmers.  For example, CHOWCHILLA subbasin’s top 3 crops are DryBean, Safflower, and FieldCrop. 
+
+- [MaJun's map]()
+Link to iPython Notebook on Data Analysis/Visulization  
+- [Plot1-5](zJupyterNB_Script/PlotyTrends_Kai.html)
+- [Plot6-7](zJupyterNB_Script/PlotyTrends_Kai.html)
   
-
-
-
 
 
 
