@@ -50,7 +50,8 @@ We plot the trends of area that grows Alfalfa Grain and corn. Those plants have 
 According to the water appropriateness levels, in each Subbasin, we pick the top 50% crops (approx 7 crops) in terms of best water appropriateness. Among these top water saving crops, we then rank them by production economics value, and project the top 3 economic crops for each subbasin.According to the criteria, for example, we suggest farmer from Turlock to grow safflower, field crop, and tropical plant. Simply click on a data point(subbasin location) on this [interactive map](zPrj_map/SJV_basin.html), you will sse the suggested crop to grow in each sub basin in San Joaquin Valley. 
 
 
-- [MaJun's map]()
+
+
 Link to iPython Notebook on Data Analysis/Visulization  
 - [Plot1-5](zJupyterNB_Script/PlotyTrends_Kai.html)
 - [Plot6-7](zJupyterNB_Script/PlotyTrends_Kai.html)
