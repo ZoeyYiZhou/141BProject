@@ -71,8 +71,10 @@ Other Three Crops: We plot the trend of Potato, Melon&Cucumber, and Deciduous Pl
 Link to [iPython Notebook](https://github.com/ZoeyYiZhou/141BProject/tree/master/zJupyterNB_Script) on Data Analysis/Visulization
 
 
+### Thanks for viewing our website! 
+
 <dl>
-<dt>Thanks for viewing our website, free free to contact us if you have any questions!</dt>
+<dt>Free free to contact us if you have any questions!</dt>
 <a href="mailto:liyanlinalice@hotmail.com"> Alice, Li</a>;  
 <a href="mailto:zoezhou@ucdavis.edu"> Yi, Zhou</a>;   
 <a href="mailto:umama@ucdavis.edu"> Jun, Ma</a>;  
