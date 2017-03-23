@@ -63,16 +63,17 @@ We plot the area in growing alfalfa, grain and corn to show trends. These 3 plan
 
 <img src="zPlot_Image/3mid.png" style="float: center; padding:0.1em" width="90%">
 
-These are the crops with medium price and need decent water.
-Other Three Crops: We plot the trend of Potato, Melon&Cucumber, and Deciduous Plant. These crops need decent water to grow, and can be sold with medium price. For potatoes, we recommend Chowchilla, Madera and Kaweah sub-basin to plant. For Melon&Cucumber, we suggested Delta-Mendota, Modesto and Turlock to grow. For Deciduous Plant, we recommend Cosumnes, Eastern San Joaquim and Tracy to grow. [mid crops](zPlot_Image/Mid_Three_Crops.html)
+In this plot above, we analysis 3 crops: potato, melon and cucumber, and deciduous plant. These crops doesn't need too much water to grow, and can be sold with medium price, so they are never in the suggested list. However, if we were to find a best place to grow these, by ranking thier appropriateness in each county, we recommend Chowchilla, Madera and Kaweah sub-basin to plant potato; Delta-Mendota, Modesto and Turlock to grow Melon and Cucumber, and Cosumnes, Eastern San Joaquim and Tracy to grow Deciduous Plant. More details on [interactive plot](zPlot_Image/Mid_Three_Crops.html)
 
 
 
+Overall, we noticed some farmers in  San Joaquin Valley have switched their crops and adjust to the natural conditions in  San Joaquin Valley to save water usage, and there are certainly much room for improvement in terms of saving water. Moreover, our suggestion is merely based on production economic value and saving water usage. There are might be other factors for farmers to consider for them to switch, for example, diet habbit, and cosumer purchasing habbit in the area and etc, which we did not consider here. However, what we did here gives farmers a good overview on possible crops to grow if they want to save water.  
+ 
 
-Link to [iPython Notebook](https://github.com/ZoeyYiZhou/141BProject/tree/master/zJupyterNB_Script) on Data Analysis/Visulization
 
 
 ### Thanks for viewing our website! 
+Link to [iPython Notebook](https://github.com/ZoeyYiZhou/141BProject/tree/master/zJupyterNB_Script) on Data Analysis/Visulization
 
 <dl>
 <dt>Free free to contact us if you have any questions!</dt>
