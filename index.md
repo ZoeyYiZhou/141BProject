@@ -30,32 +30,23 @@ We had our data from 5 resources, and we merged by common features across tables
 
 ## [](#header-1)Data Analysis/Visulization  
 
-<img src="zPlot_Image/appropriateness.png" style="float: center; padding:0.1em" width="90%">
+<img src="zPlot_Image/appropriateness.png" style="float: center; padding:0.1em" width="60%">
+
 From our cleaning dataset, we have a column named WaterUsagePerAcre (feet). We also get the precipitation (inch) for each sub-basin online. Therefore, we set the level of appropriateness to be (WaterUsagePerAcre/12) / (Percipitation). Ideally, if the precipitation happens to be equal to the total water crops needed to grow, then the appropriateness level will be one, and farmers do not need to draw more water from the ground. However, usually the appropriateness will be bigger than one because the crops will need more water than precipitation. The level of appropriateness will be better if it is smaller. 
-
-
-
-
-
-
 
 
 <img src="zPlot_Image/Area_Value_Precipitation_Trends.png" style="float: center; padding:0.1 em" width="90%">
 
 This is a bar plot showing the trend for crop area, precipitation and crop economic value from 2010 to 2015. We standardized the value of area, economic value and precipitation and put them into a same bar plot graph. We can see that precipitation of San Joaquin valley dropped significantly since 2011 except year 2013. The crops area trends is consistent with precipitation and the crops area reaches its minimal in 2015. This fact proves that agriculture production is severely affected by the lack of rains. In the main time, the economic value of crops reaches its maximum in 2011 and starts to drop each year afterwards, and reaches the minimal value in 2015. Overall, we can see that agriculture production is severely affected by the lack of rains, and experiences an decrease in production from economics aspect. Click [here](zhtml/Area_Value_Precipitation_Trends.html) for the interactive plot. 
 
+
 <img src="zPlot_Image/Area_Trends_For_Crops.png" style="float: center; padding:0.1em" width="90%">
 
 In this graph, we separate the crops by three tiers according to thier water usage. We rank the crops by unit water usage in 2010. Top 10% of crops in terms of water usage are named high water usage crop. Bottom 40% of crops in terms of water usage are named low water usage crops. The rest is medium water usage crops. We can see that the Area of High water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmer has been trying to grow more low water usage crops and less high water usage crops. Click [here](zhtml/Area_Trends_For_Crops.html) for the interactive plot. 
   
  
-
-
 <img src="zPlot_Image/18.png" style="float: center; padding:0.1em" width="90%">
 I calculate appropriateness level for each crop in 18 sub-basins, and plot them in ascending order. Figure 18 bars shows an overall trend of level of appropriateness in different sub-basins. From the plot, we can see that Grain, Tropical Plant and potatoes are the most three saving water crops in San-Joaquin Valley.From the one single bar, by clicking on the legend, it will toggle the plot to filter by sub-basin. [Appropriateness](zhtml/2_bars.html).
-
-
-
 
 
 <img src="zPlot_Image/Map.png" style="float: center; padding:0.1em" width="90%">
@@ -67,7 +58,6 @@ Corn Alfalfa grain trends:
 
 
 <img src="zPlot_Image/Corn_Alfalfa_Grain_Trends.png" style="float: center; padding:0.1em" width="90%">
-
 
 We plot the area in growing alfalfa, grain and corn to show trends. These 3 plants have high water consumption, but low economic values, and they are widely grown in San Joaquin Valley. Note that alfalfa is used for grazing, hay, and silage. In the bars for alfalfa, we can see that the area of alfalfa has dropped significantly, but the total area in growing alfalfa is still big. Similar trends happened for both grain and corn. It will be a better idea if California can import alfalfa, grain and corn, or find their substitutes to grow to save water. [Corn_Alfalfa_Grain_Trends](zhtml/Corn_Alfalfa_Grain_Trends.html)
 
