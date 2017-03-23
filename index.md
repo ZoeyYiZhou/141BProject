@@ -12,10 +12,8 @@ Our topic is to analysis water uses of crops in San Joaquin Valley, California. 
 In the main time, about 13% of US agriculture production came from San Joaquin Valley. It is a challenge to find the balance between reducing water uses in agriculture and keeping the production of crops going. Here we investigate the appropriate crops to grow and the trends of changing in crops areas in the past 6 years. Ideally, we want to help farmers make decisions on what to grow, and help the government to get ideas of current water usage in agriculture in San Joaquin Valley. 
 
 ## [](#header-1)Data Cleaning and Munging Before Analysis 
-
+<img src="Table.png" style="float: center; padding: 1em" width="90%">
 We had our data from 5 resources, and we merged by common features across tables. For tables that don't have common features, we create features which can be used to merge the other tables. For example, in the Cropland Data Layer(CDL) excel, we created county name based on the locations of subbasins so that this table can be merged with Water Usage for crops by county. The highlighted feature in the table below are the common features. We also web-scrape precipitation store in API format from the Internet and manually summarized crops' economic value from reading pdfs from the website. Here are lists of our data sources
-
-<img src="Table.png" style="float: center; padding: 2em" width="90%">
 
   - [Basin Information](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/)
      The UC Davis Water and Energy Efficiency Center Processed this data into Excel Format.<a href="mailto:liyanlinalice@hotmail.com"> Contact us </a> if you want to download the file  
@@ -26,20 +24,22 @@ We had our data from 5 resources, and we merged by common features across tables
   - [Other Useful Information on Subbasin](https://gis.water.ca.gov/app/bbat/)
   - [Data Ready For Analysis](https://www.dropbox.com/s/q566iqo0gj38d2o/SubB_Yr_Cnty_Crp_Wtr_Acr_Zip_Prcip_Ecn.xlsx?dl=0)
   - Link to our iPython Notebook in Preprocesing Data
-    - [Web Scraping for Precipiration](zJupyterNB_Script/ScriptPrecipitationAPI_Kai.ipynb)
-    - [Clearning and Merging](zJupyterNB_Script/DataCleanning_Alice.ipynb)
+    - [Web Scraping for Precipiration](zJupyterNB_Script/ScriptPrecipitationAPI_Kai.html)
+    - [Clearning and Merging](zJupyterNB_Script/DataCleanning_Alice.html)
   
 
 ## [](#header-1)Data Analysis/Visulization  
 
 - [Appropriateness](zhtml/Appropriateness_level.html).
 - [The most Expensice crops](zhtml/MostThreeExpensive.html).
-- [Area Value Precipitation Trends](zhtml/Area_Value_Precipitation_Trends.html)
-  This is a bar plot showing the trend for crop area, precipitation and crop economic value from 2010 to 2015. We standardized the value of area, economic value and precipitation and put them into a same bar plot graph. We can see that precipitation of San Joaquin valley dropped significantly since 2011 except year 2013. The crops area trends is consistent with precipitation and the crops area reaches its minimal in 2015. This fact proves that agriculture production is severely affected by the lack of rains. In the main time, the economic value of crops reaches its maximum in 2011 and starts to drop each year afterwards, and reaches the minimal value in 2015. Overall, we can see that agriculture production is severely affected by the lack of rains, and experiences an decrease in production from economics aspect. 
 
-- [Area trends for crops](zhtml/Area_trends_for_crops.html)
-  In this graph, we separate the crops by three tiers according to it`s water usage. Top 10% of crops in terms of water usage are named after high water usage crop. Bottom 40% of crops in terms of water usage are called low water usage crops. The rest is called medium water usage crops.
-  We can see that the Area of High water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmer has been trying to grow more low water usage crops and less high water usage crops. 
+<img src="zPlot_Image/Area_Value_Precipitation_Trends.png" style="float: center; padding: 1em" width="90%">
+This is a bar plot showing the trend for crop area, precipitation and crop economic value from 2010 to 2015. We standardized the value of area, economic value and precipitation and put them into a same bar plot graph. We can see that precipitation of San Joaquin valley dropped significantly since 2011 except year 2013. The crops area trends is consistent with precipitation and the crops area reaches its minimal in 2015. This fact proves that agriculture production is severely affected by the lack of rains. In the main time, the economic value of crops reaches its maximum in 2011 and starts to drop each year afterwards, and reaches the minimal value in 2015. Overall, we can see that agriculture production is severely affected by the lack of rains, and experiences an decrease in production from economics aspect. Here is the interactive [plot](zhtml/Area_Value_Precipitation_Trends.html)
+
+<img src="zPlot_Image/Area_Trends_For_Crops.png" style="float: center; padding: 1em" width="90%">
+In this graph, we separate the crops by three tiers according to it`s water usage. Top 10% of crops in terms of water usage are named after high water usage crop. Bottom 40% of crops in terms of water usage are called low water usage crops. The rest is called medium water usage crops.
+  We can see that the Area of High water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmer has been trying to grow more low water usage crops and less high water usage crops. Here is the interactive [plot](zhtml/Area_Trends_For_Crops.html)
+  
  
 
 - [Corn_Alfalfa_Grain_Trends](zhtml/Corn_Alfalfa_Grain_Trends.html)
@@ -47,115 +47,13 @@ We had our data from 5 resources, and we merged by common features across tables
 
 - [MaJun's map](zPrj_map/SJV_basin.html)
 - Link to iPython Notebook on Data Analysis/Visulization  
-  - [Plotly trend kai](zJupyterNB_Script/PlotyTrends_Kai.ipynb)
+  - [Plotly trend kai](zJupyterNB_Script/PlotyTrends_Kai.html)
   
 
 
 
 
 
-
-
-
-
-
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-
-
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-![](https://guides.github.com/activities/hello-world/branching.png)
 
 
 <dl>
