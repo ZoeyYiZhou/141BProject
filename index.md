@@ -41,9 +41,9 @@ In this graph, we separate the crops by three tiers according to it`s water usag
   We can see that the Area of High water usage crops have decreased dramatically since 2010. The area of low water usage crops has increased by a comparably smaller amount since 2010. Medium water usage crops kept relatively constant. It shows that farmer has been trying to grow more low water usage crops and less high water usage crops. Here is the interactive [plot](zhtml/Area_Trends_For_Crops.html)
   
  
+<img src="zPlot_Image/Area_Trends_For_Crops.png" style="float: center; padding: 1em" width="90%">
+We plot the trends of area that grows Alfalfa Grain and corn. Those plants have High water consumption plants but low economic values,  but are widely grows in San Joaquin Valley. Note that Alfalfa is used for grazing, hay, and silage. It has a low economics value but very high water consumptions. In the graph of Alfalfa trends, we can see that the area of Alfalfa has dropped significantly, but are still growing in many counties. Similar trends happened for both Grain and corn. It will be a great idea that if California can import Alfalfa Grain and corn or find their substitutes to save water. [Corn_Alfalfa_Grain_Trends](zhtml/Corn_Alfalfa_Grain_Trends.html)
 
-- [Corn_Alfalfa_Grain_Trends](zhtml/Corn_Alfalfa_Grain_Trends.html)
-  We plot the trends of area that grows Alfalfa Grain and corn. Those plants have High water consumption plants but low economic values,  but are widely grows in San Joaquin Valley. Note that Alfalfa is used for grazing, hay, and silage. It has a low economics value but very high water consumptions. In the graph of Alfalfa trends, we can see that the area of Alfalfa has dropped significantly, but are still growing in many counties. Similar trends happened for both Grain and corn. It will be a great idea that if California can import Alfalfa Grain and corn or find their substitutes to save water.
 
 - [MaJun's map](zPrj_map/SJV_basin.html)
 - Link to iPython Notebook on Data Analysis/Visulization  
