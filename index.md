@@ -23,10 +23,7 @@ We had our data from 5 resources, and we merged by common features across tables
   - [Crop Economic Value](https://www.nass.usda.gov/Statistics_by_State/California/Publications/)
   - [Other Useful Information on Subbasin](https://gis.water.ca.gov/app/bbat/)
   - [Data Ready For Analysis](https://www.dropbox.com/s/q566iqo0gj38d2o/SubB_Yr_Cnty_Crp_Wtr_Acr_Zip_Prcip_Ecn.xlsx?dl=0)
-  - Link to our iPython Notebook in Preprocesing Data
-    - [Web Scraping for Precipiration](zJupyterNB_Script/ScriptPrecipitationAPI_Kai.html)
-    - [Clearning and Merging](zJupyterNB_Script/DataCleanning_Alice.html)
-  
+  - Link to our [iPython Notebook](https://github.com/ZoeyYiZhou/141BProject/tree/master/zJupyterNB_Script) in Preprocesing Data
 
 ## [](#header-1)Data Analysis/Visulization  
 
@@ -68,12 +65,10 @@ These are the crops with medium price and need decent water.
 Other Three Crops: We plot the trend of Potato, Melon&Cucumber, and Deciduous Plant. These crops need decent water to grow, and can be sold with medium price. For potatoes, we recommend Chowchilla, Madera and Kaweah sub-basin to plant. For Melon&Cucumber, we suggested Delta-Mendota, Modesto and Turlock to grow. For Deciduous Plant, we recommend Cosumnes, Eastern San Joaquim and Tracy to grow. [mid crops](zPlot_Image/Mid_Three_Crops.html)
 
 
-<dl>
-<dt>Link to iPython Notebook on Data Analysis/Visulization </dt>
-<dd>[Plot1-5](zJupyterNB_Script/PlotyTrends_Kai.html) </dd>
-<dd>[Plot6-7](zJupyterNB_Script/PlotyTrends_Kai.html) </dd>
-<dd>[map](https://github.com/ZoeyYiZhou/141BProject/blob/master/zPrj_map/SJV_basin.html)</dd>
-</dl>
+
+
+
+Link to [iPython Notebook](https://github.com/ZoeyYiZhou/141BProject/tree/master/zJupyterNB_Script) on Data Analysis/Visulization
 
 
 <dl>
